@@ -1,0 +1,476 @@
+{
+  "status": "done",
+  "assets": {
+    "main-a0f4d14a300a729783ce.js": {
+      "name": "main-a0f4d14a300a729783ce.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-a0f4d14a300a729783ce.js"
+    },
+    "main-915bf4220da7b6f3326b.js": {
+      "name": "main-915bf4220da7b6f3326b.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-915bf4220da7b6f3326b.js"
+    },
+    "main-c4432e57a2dedfe5817d.js": {
+      "name": "main-c4432e57a2dedfe5817d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c4432e57a2dedfe5817d.js"
+    },
+    "main-90054706fea71b20acd1.js": {
+      "name": "main-90054706fea71b20acd1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-90054706fea71b20acd1.js"
+    },
+    "main-da03354a47d1817e2c9a.js": {
+      "name": "main-da03354a47d1817e2c9a.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-da03354a47d1817e2c9a.js"
+    },
+    "main-b5b88b315b9fb11e575a.js": {
+      "name": "main-b5b88b315b9fb11e575a.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b5b88b315b9fb11e575a.js"
+    },
+    "main-5e8a319c5e88ba193825.js": {
+      "name": "main-5e8a319c5e88ba193825.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-5e8a319c5e88ba193825.js"
+    },
+    "main-a1d71afab09a8c8b7433.js": {
+      "name": "main-a1d71afab09a8c8b7433.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-a1d71afab09a8c8b7433.js"
+    },
+    "main-50c732386eee89477d12.js": {
+      "name": "main-50c732386eee89477d12.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-50c732386eee89477d12.js"
+    },
+    "main-9746a09aefdfe7ef1fff.js": {
+      "name": "main-9746a09aefdfe7ef1fff.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9746a09aefdfe7ef1fff.js"
+    },
+    "main-4b3000e37309c8c97613.js": {
+      "name": "main-4b3000e37309c8c97613.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4b3000e37309c8c97613.js"
+    },
+    "main-e95b099106fec632a987.js": {
+      "name": "main-e95b099106fec632a987.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-e95b099106fec632a987.js"
+    },
+    "main-838a5f2e40004351f9ff.js": {
+      "name": "main-838a5f2e40004351f9ff.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-838a5f2e40004351f9ff.js"
+    },
+    "main-a7374cc8cb04d7d6677f.js": {
+      "name": "main-a7374cc8cb04d7d6677f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-a7374cc8cb04d7d6677f.js"
+    },
+    "main-df6bffae212964b9be95.js": {
+      "name": "main-df6bffae212964b9be95.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-df6bffae212964b9be95.js"
+    },
+    "main-543d725113ea9a136157.js": {
+      "name": "main-543d725113ea9a136157.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-543d725113ea9a136157.js"
+    },
+    "main-a409b7ea0a38e35af1a1.js": {
+      "name": "main-a409b7ea0a38e35af1a1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-a409b7ea0a38e35af1a1.js"
+    },
+    "main-387e3b31c7ce64923eb2.js": {
+      "name": "main-387e3b31c7ce64923eb2.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-387e3b31c7ce64923eb2.js"
+    },
+    "main-fb688f24f01520aea4d7.js": {
+      "name": "main-fb688f24f01520aea4d7.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-fb688f24f01520aea4d7.js"
+    },
+    "main-c949fac384cd284933c4.js": {
+      "name": "main-c949fac384cd284933c4.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c949fac384cd284933c4.js"
+    },
+    "main-1e2e3f9818071b1060e9.js": {
+      "name": "main-1e2e3f9818071b1060e9.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-1e2e3f9818071b1060e9.js"
+    },
+    "main-f0b88481394fac7bc20f.js": {
+      "name": "main-f0b88481394fac7bc20f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-f0b88481394fac7bc20f.js"
+    },
+    "main-76199b6e20a655663b92.js": {
+      "name": "main-76199b6e20a655663b92.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-76199b6e20a655663b92.js"
+    },
+    "main-9883a2b52609a0b55243.js": {
+      "name": "main-9883a2b52609a0b55243.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9883a2b52609a0b55243.js"
+    },
+    "main-ce8e58f5d662fe059919.js": {
+      "name": "main-ce8e58f5d662fe059919.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-ce8e58f5d662fe059919.js"
+    },
+    "main-aa8e9fd76cefbfeb4a5c.js": {
+      "name": "main-aa8e9fd76cefbfeb4a5c.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-aa8e9fd76cefbfeb4a5c.js"
+    },
+    "main-6e6dc10a4b24c60e12d1.js": {
+      "name": "main-6e6dc10a4b24c60e12d1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-6e6dc10a4b24c60e12d1.js"
+    },
+    "main-6e6ffe849a7160eab587.js": {
+      "name": "main-6e6ffe849a7160eab587.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-6e6ffe849a7160eab587.js"
+    },
+    "main-1d1d4c229cad09fb2734.js": {
+      "name": "main-1d1d4c229cad09fb2734.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-1d1d4c229cad09fb2734.js"
+    },
+    "main-2974d648677b408a9a89.js": {
+      "name": "main-2974d648677b408a9a89.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2974d648677b408a9a89.js"
+    },
+    "main-5279abb444fc578af226.js": {
+      "name": "main-5279abb444fc578af226.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-5279abb444fc578af226.js"
+    },
+    "main-d498844d1f59ca385f9f.js": {
+      "name": "main-d498844d1f59ca385f9f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-d498844d1f59ca385f9f.js"
+    },
+    "main-3fbc85538acada4bdbed.js": {
+      "name": "main-3fbc85538acada4bdbed.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-3fbc85538acada4bdbed.js"
+    },
+    "main-966ef0da7c2e9a58c7f1.js": {
+      "name": "main-966ef0da7c2e9a58c7f1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-966ef0da7c2e9a58c7f1.js"
+    },
+    "main-85ac8dfe38d383e41740.js": {
+      "name": "main-85ac8dfe38d383e41740.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-85ac8dfe38d383e41740.js"
+    },
+    "main-4626550f3a6b16daea9c.js": {
+      "name": "main-4626550f3a6b16daea9c.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4626550f3a6b16daea9c.js"
+    },
+    "main-8f1ae1d95a63867e2261.js": {
+      "name": "main-8f1ae1d95a63867e2261.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-8f1ae1d95a63867e2261.js"
+    },
+    "main-0c55a6d5a975b4f1758e.js": {
+      "name": "main-0c55a6d5a975b4f1758e.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-0c55a6d5a975b4f1758e.js"
+    },
+    "main-9c3eab6d90308cb0b971.js": {
+      "name": "main-9c3eab6d90308cb0b971.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9c3eab6d90308cb0b971.js"
+    },
+    "main-b17b44f0d0b47dfb202f.js": {
+      "name": "main-b17b44f0d0b47dfb202f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b17b44f0d0b47dfb202f.js"
+    },
+    "main-0b7edc6973cb77691f55.js": {
+      "name": "main-0b7edc6973cb77691f55.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-0b7edc6973cb77691f55.js"
+    },
+    "main-8393d6832a07b5059d3b.js": {
+      "name": "main-8393d6832a07b5059d3b.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-8393d6832a07b5059d3b.js"
+    },
+    "main-50529e536661586b16ab.js": {
+      "name": "main-50529e536661586b16ab.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-50529e536661586b16ab.js"
+    },
+    "main-311537290d36688788fe.js": {
+      "name": "main-311537290d36688788fe.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-311537290d36688788fe.js"
+    },
+    "main-658eb0624d88a9a93ee9.js": {
+      "name": "main-658eb0624d88a9a93ee9.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-658eb0624d88a9a93ee9.js"
+    },
+    "main-0d0d84d98951c45d70cf.js": {
+      "name": "main-0d0d84d98951c45d70cf.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-0d0d84d98951c45d70cf.js"
+    },
+    "main-4fe1eb442d3accbe6875.js": {
+      "name": "main-4fe1eb442d3accbe6875.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4fe1eb442d3accbe6875.js"
+    },
+    "main-fec5585d94a3ef000adb.js": {
+      "name": "main-fec5585d94a3ef000adb.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-fec5585d94a3ef000adb.js"
+    },
+    "main-4884a5bdb8708007b5ee.js": {
+      "name": "main-4884a5bdb8708007b5ee.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4884a5bdb8708007b5ee.js"
+    },
+    "main-a682cf21d0fad838758a.js": {
+      "name": "main-a682cf21d0fad838758a.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-a682cf21d0fad838758a.js"
+    },
+    "main-79355e74aa91e743ff4d.js": {
+      "name": "main-79355e74aa91e743ff4d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-79355e74aa91e743ff4d.js"
+    },
+    "main-9d253d72602507fc05f9.js": {
+      "name": "main-9d253d72602507fc05f9.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9d253d72602507fc05f9.js"
+    },
+    "main-13d8c1278b2f9e2d3408.js": {
+      "name": "main-13d8c1278b2f9e2d3408.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-13d8c1278b2f9e2d3408.js"
+    },
+    "main-ec336122faef7faa1909.js": {
+      "name": "main-ec336122faef7faa1909.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-ec336122faef7faa1909.js"
+    },
+    "main-335b414f550098d638b2.js": {
+      "name": "main-335b414f550098d638b2.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-335b414f550098d638b2.js"
+    },
+    "main-2bae820bed458b4d7368.js": {
+      "name": "main-2bae820bed458b4d7368.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2bae820bed458b4d7368.js"
+    },
+    "main-baeeab8b916a1f604f0d.js": {
+      "name": "main-baeeab8b916a1f604f0d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-baeeab8b916a1f604f0d.js"
+    },
+    "main-d5f8c90f4800d75ccd8f.js": {
+      "name": "main-d5f8c90f4800d75ccd8f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-d5f8c90f4800d75ccd8f.js"
+    },
+    "main-d087632ea774c353ebe4.js": {
+      "name": "main-d087632ea774c353ebe4.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-d087632ea774c353ebe4.js"
+    },
+    "main-061852f5f174e2d88a30.js": {
+      "name": "main-061852f5f174e2d88a30.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-061852f5f174e2d88a30.js"
+    },
+    "main-eedc936dc417256af875.js": {
+      "name": "main-eedc936dc417256af875.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-eedc936dc417256af875.js"
+    },
+    "main-bb87c1ddaf6287ba1e79.js": {
+      "name": "main-bb87c1ddaf6287ba1e79.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-bb87c1ddaf6287ba1e79.js"
+    },
+    "main-2c0659a5add723a1f134.js": {
+      "name": "main-2c0659a5add723a1f134.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2c0659a5add723a1f134.js"
+    },
+    "main-14dd2a4ee7b9c9cd674a.js": {
+      "name": "main-14dd2a4ee7b9c9cd674a.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-14dd2a4ee7b9c9cd674a.js"
+    },
+    "main-4cd0256a14b764cf9810.js": {
+      "name": "main-4cd0256a14b764cf9810.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4cd0256a14b764cf9810.js"
+    },
+    "main-96839c0a87ef6064b52e.js": {
+      "name": "main-96839c0a87ef6064b52e.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-96839c0a87ef6064b52e.js"
+    },
+    "main-0105d0867ad299898685.js": {
+      "name": "main-0105d0867ad299898685.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-0105d0867ad299898685.js"
+    },
+    "main-c523c1ad70b6d86e90a5.js": {
+      "name": "main-c523c1ad70b6d86e90a5.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c523c1ad70b6d86e90a5.js"
+    },
+    "main-aaeb88b920e409f248f1.js": {
+      "name": "main-aaeb88b920e409f248f1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-aaeb88b920e409f248f1.js"
+    },
+    "main-9dc755bf0393d0d05ef0.js": {
+      "name": "main-9dc755bf0393d0d05ef0.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9dc755bf0393d0d05ef0.js"
+    },
+    "main-1ce3391d7e612a0a8024.js": {
+      "name": "main-1ce3391d7e612a0a8024.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-1ce3391d7e612a0a8024.js"
+    },
+    "main-957abfa66f6071af7bca.js": {
+      "name": "main-957abfa66f6071af7bca.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-957abfa66f6071af7bca.js"
+    },
+    "main-5a5fd44b25718a14a7c8.js": {
+      "name": "main-5a5fd44b25718a14a7c8.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-5a5fd44b25718a14a7c8.js"
+    },
+    "main-962e97bf6a109f41b215.js": {
+      "name": "main-962e97bf6a109f41b215.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-962e97bf6a109f41b215.js"
+    },
+    "main-37a03fed08b4d71c00b7.js": {
+      "name": "main-37a03fed08b4d71c00b7.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-37a03fed08b4d71c00b7.js"
+    },
+    "main-b184bcb17eb879a38e27.js": {
+      "name": "main-b184bcb17eb879a38e27.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b184bcb17eb879a38e27.js"
+    },
+    "main-7dbc68c273ec9fdc0711.js": {
+      "name": "main-7dbc68c273ec9fdc0711.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-7dbc68c273ec9fdc0711.js"
+    },
+    "main-b47ec03034a451c8b71a.js": {
+      "name": "main-b47ec03034a451c8b71a.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b47ec03034a451c8b71a.js"
+    },
+    "main-2372a489374bfea0a025.js": {
+      "name": "main-2372a489374bfea0a025.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2372a489374bfea0a025.js"
+    },
+    "main-474832f26a66010fa936.js": {
+      "name": "main-474832f26a66010fa936.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-474832f26a66010fa936.js"
+    },
+    "main-304006d0d97788d34fc5.js": {
+      "name": "main-304006d0d97788d34fc5.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-304006d0d97788d34fc5.js"
+    },
+    "main-4aeeff2636a94fbf7241.js": {
+      "name": "main-4aeeff2636a94fbf7241.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4aeeff2636a94fbf7241.js"
+    },
+    "main-68c2383decca980c3ac1.js": {
+      "name": "main-68c2383decca980c3ac1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-68c2383decca980c3ac1.js"
+    },
+    "main-c0afae1f2747c91aee08.js": {
+      "name": "main-c0afae1f2747c91aee08.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c0afae1f2747c91aee08.js"
+    },
+    "main-c0438449332fbd6cde87.js": {
+      "name": "main-c0438449332fbd6cde87.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c0438449332fbd6cde87.js"
+    },
+    "main-055dd097663353db28f4.js": {
+      "name": "main-055dd097663353db28f4.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-055dd097663353db28f4.js"
+    },
+    "main-c4b0620fcd4bff6372f3.js": {
+      "name": "main-c4b0620fcd4bff6372f3.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c4b0620fcd4bff6372f3.js"
+    },
+    "main-04bbf0ba38c13275f5e4.js": {
+      "name": "main-04bbf0ba38c13275f5e4.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-04bbf0ba38c13275f5e4.js"
+    },
+    "main-b14a735e83953ca49e28.js": {
+      "name": "main-b14a735e83953ca49e28.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b14a735e83953ca49e28.js"
+    },
+    "main-645ae22adc405d673e86.js": {
+      "name": "main-645ae22adc405d673e86.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-645ae22adc405d673e86.js"
+    },
+    "main-2b5460c3c301ceec2162.js": {
+      "name": "main-2b5460c3c301ceec2162.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2b5460c3c301ceec2162.js"
+    },
+    "main-e90359d698b128ded02d.js": {
+      "name": "main-e90359d698b128ded02d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-e90359d698b128ded02d.js"
+    },
+    "main-c96a56e1a87eb0242259.js": {
+      "name": "main-c96a56e1a87eb0242259.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c96a56e1a87eb0242259.js"
+    },
+    "main-cffffb8c5d398c0e85bf.js": {
+      "name": "main-cffffb8c5d398c0e85bf.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-cffffb8c5d398c0e85bf.js"
+    },
+    "main-67bdfb83b68d356ba13f.js": {
+      "name": "main-67bdfb83b68d356ba13f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-67bdfb83b68d356ba13f.js"
+    },
+    "main-8daa3437b882f4e99819.js": {
+      "name": "main-8daa3437b882f4e99819.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-8daa3437b882f4e99819.js"
+    },
+    "main-754db901c6925d2fc36d.js": {
+      "name": "main-754db901c6925d2fc36d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-754db901c6925d2fc36d.js"
+    },
+    "main-da8e47727dd7f8a65bac.js": {
+      "name": "main-da8e47727dd7f8a65bac.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-da8e47727dd7f8a65bac.js"
+    },
+    "main-f0fe6490e8525490fb92.js": {
+      "name": "main-f0fe6490e8525490fb92.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-f0fe6490e8525490fb92.js"
+    },
+    "main-804de1852753c1131fec.js": {
+      "name": "main-804de1852753c1131fec.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-804de1852753c1131fec.js"
+    },
+    "main-03945c6119c15b73d539.js": {
+      "name": "main-03945c6119c15b73d539.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-03945c6119c15b73d539.js"
+    },
+    "main-650ecbaa895ecf782632.js": {
+      "name": "main-650ecbaa895ecf782632.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-650ecbaa895ecf782632.js"
+    },
+    "main-c12d28cd10b437aefa34.js": {
+      "name": "main-c12d28cd10b437aefa34.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c12d28cd10b437aefa34.js"
+    },
+    "main-b4dd3d0df04a5c53dd61.js": {
+      "name": "main-b4dd3d0df04a5c53dd61.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b4dd3d0df04a5c53dd61.js"
+    },
+    "main-3342999cd86409496513.js": {
+      "name": "main-3342999cd86409496513.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-3342999cd86409496513.js"
+    },
+    "main-38fed0417eded4aac5d1.js": {
+      "name": "main-38fed0417eded4aac5d1.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-38fed0417eded4aac5d1.js"
+    },
+    "main-affd01bb42ff67b7ff53.js": {
+      "name": "main-affd01bb42ff67b7ff53.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-affd01bb42ff67b7ff53.js"
+    },
+    "main-415fd1f91432451e0afb.js": {
+      "name": "main-415fd1f91432451e0afb.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-415fd1f91432451e0afb.js"
+    },
+    "main-f282e86aab2ea0839941.js": {
+      "name": "main-f282e86aab2ea0839941.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-f282e86aab2ea0839941.js"
+    },
+    "main-95b8318bf5d125687a0a.js": {
+      "name": "main-95b8318bf5d125687a0a.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-95b8318bf5d125687a0a.js"
+    },
+    "main-e9c25a831f2217784b9d.js": {
+      "name": "main-e9c25a831f2217784b9d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-e9c25a831f2217784b9d.js"
+    },
+    "main-307f4b3ead1895cafb6f.js": {
+      "name": "main-307f4b3ead1895cafb6f.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-307f4b3ead1895cafb6f.js"
+    },
+    "main-b5e5058cc1b691c54da9.js": {
+      "name": "main-b5e5058cc1b691c54da9.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-b5e5058cc1b691c54da9.js"
+    },
+    "main-503c2277e9aef1caeff9.js": {
+      "name": "main-503c2277e9aef1caeff9.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-503c2277e9aef1caeff9.js"
+    },
+    "main-4d2199769f157ae99932.js": {
+      "name": "main-4d2199769f157ae99932.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-4d2199769f157ae99932.js"
+    },
+    "main-e953d639bba134843e1d.js": {
+      "name": "main-e953d639bba134843e1d.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-e953d639bba134843e1d.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-e953d639bba134843e1d.js"
+    ]
+  },
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/src/features/teams/teamSlice.js: Unexpected token (42:34)\n\n  40 |       requestOptions\n  41 |     ).then((resp) =>\n> 42 |       resp.json().then((data) => ())\n     |                                   ^\n  43 |     );\n  44 |     return response;\n  45 |   }\n    at instantiate (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:72:32)\n    at constructor (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:358:12)\n    at Object.raise (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:3334:19)\n    at Object.unexpected (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:3372:16)\n    at Object.parseParenAndDistinguishExpression (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:13317:12)\n    at Object.parseExprAtom (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:12867:23)\n    at Object.parseExprAtom (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:8033:20)\n    at Object.parseExprSubscripts (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:12539:23)\n    at Object.parseUpdate (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:12518:21)\n    at Object.parseMaybeUnary (/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/node_modules/@babel/parser/lib/index.js:12489:23)"
+}
