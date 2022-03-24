@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   Notify,
   StyledButton,
@@ -114,6 +114,13 @@ const Login = () => {
                 <StyledButton primary>LOGIN</StyledButton>
               )}
             </StyledInputGroup>
+            <div style={{ textAlign: "right", marginTop: 10 }}>
+              Create an account ?
+              <Link style={{ color: "#42c2ff" }} to={"/signup"}>
+                {" "}
+                Signup{" "}
+              </Link>
+            </div>
           </form>
         </div>
       </div>

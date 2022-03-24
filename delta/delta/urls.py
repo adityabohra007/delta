@@ -18,14 +18,14 @@ from django.urls import path, include, re_path
 from frontend.views import index
 
 urlpatterns = [
-    path('home', index),
     path('signup/', index),
     path('login/', index),
 
 
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
-    # path('', include('frontend.urls')),
+    re_path(r'^', index),
+
 
 
 ]

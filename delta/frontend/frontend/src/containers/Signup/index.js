@@ -6,7 +6,7 @@ import {
   StyledInput,
   StyledInputGroup,
 } from "../../components/StyledInput";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { StyledLabel } from "../../components/StyledInput";
 import {
   logout,
@@ -136,6 +136,13 @@ const Signup = () => {
                 <StyledButton primary>Sign Up</StyledButton>
               )}
             </StyledInputGroup>
+            <div style={{ textAlign: "right", marginTop: 10 }}>
+              Already have an account ?
+              <Link style={{ color: "#42c2ff" }} to={"/login"}>
+                {" "}
+                Login
+              </Link>
+            </div>
           </form>
         </div>
       </div>

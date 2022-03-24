@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve("./assets/webpack_bundles/"),
     filename: "[name]-[hash].js",
+    clean: true,
   },
   module: {
     rules: [

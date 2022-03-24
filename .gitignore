@@ -244,4 +244,4 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,vscode+all,django
 
-delta/frontend/frontend/assets/webpack_bundles/*
+# delta/frontend/frontend/assets/webpack_bundles/*

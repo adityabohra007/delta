@@ -1,17 +1,41 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
-import { BroweserRouter, BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Login from "./containers/Login";
 import Signup from "./containers/Signup";
 import Home from "./containers/Home";
+import { useSelector } from "react-redux";
+
+export const PrivateRoute = ({ element: Element, ...rest }) => {
+  const { loggedIn } = useSelector((state) => state.authentication);
+
+  return (
+    <Route
+      {...rest}
+      render={(props) =>
+        localStorage.getItem("user") ? (
+          <Element {...props} />
+        ) : (
+          <Navigate
+            to={{ pathname: "/login", state: { from: props.location } }}
+          />
+        )
+      }
+    />
+  );
+};
+
 function App() {
+  const { loggedIn } = useSelector((state) => state.authentication);
+
   return (
     <div className="Container">
       <BrowserRouter>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route
+            path="/"
+            element={loggedIn ? <Home /> : <Navigate to="/login"></Navigate>}
+          />
           <Route path="signup" element={<Signup />} />
           <Route path="login" element={<Login />} />
           <Route

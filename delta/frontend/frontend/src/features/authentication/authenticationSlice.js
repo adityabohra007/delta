@@ -77,6 +77,7 @@ export const authenticationSlice = createSlice({
     signup_failure: (state) => {
       state.signed_up = false;
     },
+
     login_error_clear: (state) => {
       state.login_error = [];
     },
@@ -92,9 +93,11 @@ export const authenticationSlice = createSlice({
       state.login_error = { ...action };
       state.loggedIn = false;
     },
+
     logout: (state) => {
       state.loggedIn = false;
       state.user = {};
+      localStorage.removeItem("user");
     },
   },
   extraReducers: (builder) => {
@@ -126,11 +129,10 @@ export const authenticationSlice = createSlice({
       }
       if (action.payload.status == 201) {
         state.signed_up = true;
+        state.loggedIn = true;
+        localStorage.setItem("user", JSON.stringify(action.payload.body));
       }
     });
-    // builder.addCase(signupAsync.fulfilled, (state, action) => {
-    //   state.rejected = ;
-    // });
   },
 });
 

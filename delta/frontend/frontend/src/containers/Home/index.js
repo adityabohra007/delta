@@ -17,6 +17,7 @@ import { MdDelete } from "react-icons/md";
 import Modal from "../../components/Modal";
 import CreateTeam from "../../features/teams/createTeam";
 import { useNavigate } from "react-router-dom";
+import { logout } from "../../features/authentication/authenticationSlice";
 
 const Home = () => {
   const team = useSelector((state) => state.team);
@@ -88,14 +89,27 @@ const Home = () => {
 
       <HomePage>
         <div className="HomePageContainer">
-          <div style={{ display: "flex", alignItems: "center", padding: 20 }}>
-            <div style={{ fontSize: 18, fontWeight: 600 }}>Team members</div>
-            <div style={{ marginLeft: 20 }}>
-              <StyledButton primary onClick={() => setModalOpen(true)}>
-                Add Member
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div style={{ display: "flex", alignItems: "center", padding: 20 }}>
+              <div style={{ fontSize: 18, fontWeight: 600 }}>Team members</div>
+              <div style={{ marginLeft: 20 }}>
+                <StyledButton primary onClick={() => setModalOpen(true)}>
+                  Add Member
+                </StyledButton>
+              </div>
+            </div>
+            <div style={{ marginRight: 20, alignSelf: "center" }}>
+              <StyledButton
+                style={{ marginRight: 20 }}
+                onClick={() => {
+                  dispatch(logout());
+                }}
+              >
+                Logout
               </StyledButton>
             </div>
           </div>
+
           <div style={{ padding: 20, display: "flex" }}>
             <MultipleSelection
               handleSelectAll={handleSelectAll}
