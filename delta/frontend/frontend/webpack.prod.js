@@ -40,9 +40,10 @@ module.exports = {
   },
   plugins: [
     new BundleTracker({ filename: "./webpack-stats.json" }),
-    new Dotenv({ systemvars: true }),
-    // new webpack.DefinePlugin({
-    //   "process.env": JSON.stringify(process.env),
-    // }),
+    new webpack.DefinePlugin({
+      "process.env.API_URL": JSON.stringify(
+        "https://delta-assignment.herokuapp.com/api/"
+      ),
+    }),
   ],
 };

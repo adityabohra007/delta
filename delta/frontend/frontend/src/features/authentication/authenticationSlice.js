@@ -84,20 +84,18 @@ export const authenticationSlice = createSlice({
     logout: (state) => {
       state.loggedIn = false;
       state.user = {};
+      state.login_error = [];
+      state.signed_up = false;
+      state.errors = {};
+
       localStorage.removeItem("user");
-      return {};
+      // state = {};
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(loginAsync.pending, (state) => {
-      state.loading = "loading";
-    });
-    builder.addCase(loginAsync.rejected, (state, action) => {
-      state.loading = "idle";
-      state.login_error = { ...action.payload };
-    });
+    // LOGIN
     builder.addCase(loginAsync.fulfilled, (state, action) => {
-      state.loading = "idle";
+      state.logging_in = false;
       if (action.payload.status == 400 && action.payload.body) {
         state.errors = action.payload.body;
       }
@@ -106,9 +104,15 @@ export const authenticationSlice = createSlice({
         localStorage.setItem("user", JSON.stringify(action.payload.body));
       }
     });
-    builder.addCase(signupAsync.pending, (state, action) => {
-      state.loading = "loading";
+    builder.addCase(loginAsync.pending, (state) => {
+      state.logging_in = true;
     });
+    builder.addCase(loginAsync.rejected, (state, action) => {
+      state.logged_in = false;
+      state.logging_in = false;
+      state.login_error = { ...action.payload };
+    });
+    // SIGNUP
     builder.addCase(signupAsync.fulfilled, (state, action) => {
       state.loading = "idle";
       if (action.payload.status == 400 && action.payload.body) {
@@ -119,6 +123,9 @@ export const authenticationSlice = createSlice({
         state.loggedIn = true;
         localStorage.setItem("user", JSON.stringify(action.payload.body));
       }
+    });
+    builder.addCase(signupAsync.pending, (state, action) => {
+      state.loading = "loading";
     });
   },
 });

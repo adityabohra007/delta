@@ -1,18 +1,18 @@
 {
   "status": "done",
   "assets": {
-    "main-2afe0e970f61bf65ab6b.js": {
-      "name": "main-2afe0e970f61bf65ab6b.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2afe0e970f61bf65ab6b.js"
+    "main-d1761ec27b87ce85f68b.js": {
+      "name": "main-d1761ec27b87ce85f68b.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-d1761ec27b87ce85f68b.js"
     },
-    "main-2afe0e970f61bf65ab6b.js.LICENSE.txt": {
-      "name": "main-2afe0e970f61bf65ab6b.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2afe0e970f61bf65ab6b.js.LICENSE.txt"
+    "main-d1761ec27b87ce85f68b.js.LICENSE.txt": {
+      "name": "main-d1761ec27b87ce85f68b.js.LICENSE.txt",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-d1761ec27b87ce85f68b.js.LICENSE.txt"
     }
   },
   "chunks": {
     "main": [
-      "main-2afe0e970f61bf65ab6b.js"
+      "main-d1761ec27b87ce85f68b.js"
     ]
   }
 }

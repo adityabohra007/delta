@@ -39,6 +39,9 @@ module.exports = {
   },
   plugins: [
     new BundleTracker({ filename: "./webpack-stats.json" }),
-    new Dotenv(),
+    new webpack.DefinePlugin({
+      // "process.env": JSON.stringify(process.env),
+      "process.env.API_URL": JSON.stringify("http://127.0.0.1:8000/api/"),
+    }),
   ],
 };
