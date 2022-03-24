@@ -14,7 +14,6 @@ import datetime
 import os
 from pathlib import Path
 import django_heroku
-django_heroku.settings(locals())
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -163,3 +162,5 @@ SIMPLE_JWT = {
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'frontend/frontend/assets'),
 )
+
+django_heroku.settings(locals())
