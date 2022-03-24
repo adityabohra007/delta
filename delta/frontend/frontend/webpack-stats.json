@@ -1,58 +1,18 @@
 {
   "status": "done",
   "assets": {
-    "main-9862074e0ef646c6aeb3.js": {
-      "name": "main-9862074e0ef646c6aeb3.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9862074e0ef646c6aeb3.js"
+    "main-2afe0e970f61bf65ab6b.js": {
+      "name": "main-2afe0e970f61bf65ab6b.js",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2afe0e970f61bf65ab6b.js"
     },
-    "main-9862074e0ef646c6aeb3.js.LICENSE.txt": {
-      "name": "main-9862074e0ef646c6aeb3.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-9862074e0ef646c6aeb3.js.LICENSE.txt"
-    },
-    "main-199036a1e407174ffcc6.js": {
-      "name": "main-199036a1e407174ffcc6.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-199036a1e407174ffcc6.js"
-    },
-    "main-199036a1e407174ffcc6.js.LICENSE.txt": {
-      "name": "main-199036a1e407174ffcc6.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-199036a1e407174ffcc6.js.LICENSE.txt"
-    },
-    "main-8e5daa3029df5494e195.js": {
-      "name": "main-8e5daa3029df5494e195.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-8e5daa3029df5494e195.js"
-    },
-    "main-8e5daa3029df5494e195.js.LICENSE.txt": {
-      "name": "main-8e5daa3029df5494e195.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-8e5daa3029df5494e195.js.LICENSE.txt"
-    },
-    "main-2d3f27d566f59e62d56e.js": {
-      "name": "main-2d3f27d566f59e62d56e.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2d3f27d566f59e62d56e.js"
-    },
-    "main-2d3f27d566f59e62d56e.js.LICENSE.txt": {
-      "name": "main-2d3f27d566f59e62d56e.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2d3f27d566f59e62d56e.js.LICENSE.txt"
-    },
-    "main-c44f6f1ebb7f2fd5a4ff.js": {
-      "name": "main-c44f6f1ebb7f2fd5a4ff.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c44f6f1ebb7f2fd5a4ff.js"
-    },
-    "main-c44f6f1ebb7f2fd5a4ff.js.LICENSE.txt": {
-      "name": "main-c44f6f1ebb7f2fd5a4ff.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-c44f6f1ebb7f2fd5a4ff.js.LICENSE.txt"
-    },
-    "main-56bf9302cdf3f0ce85c7.js": {
-      "name": "main-56bf9302cdf3f0ce85c7.js",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-56bf9302cdf3f0ce85c7.js"
-    },
-    "main-56bf9302cdf3f0ce85c7.js.LICENSE.txt": {
-      "name": "main-56bf9302cdf3f0ce85c7.js.LICENSE.txt",
-      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-56bf9302cdf3f0ce85c7.js.LICENSE.txt"
+    "main-2afe0e970f61bf65ab6b.js.LICENSE.txt": {
+      "name": "main-2afe0e970f61bf65ab6b.js.LICENSE.txt",
+      "path": "/home/abohra/Documents/Dev/projects/delta/delta/frontend/frontend/assets/webpack_bundles/main-2afe0e970f61bf65ab6b.js.LICENSE.txt"
     }
   },
   "chunks": {
     "main": [
-      "main-56bf9302cdf3f0ce85c7.js"
+      "main-2afe0e970f61bf65ab6b.js"
     ]
   }
 }

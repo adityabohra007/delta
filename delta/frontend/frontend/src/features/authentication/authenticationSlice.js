@@ -85,6 +85,7 @@ export const authenticationSlice = createSlice({
       state.loggedIn = false;
       state.user = {};
       localStorage.removeItem("user");
+      return {};
     },
   },
   extraReducers: (builder) => {
