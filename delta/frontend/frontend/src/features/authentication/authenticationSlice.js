@@ -1,6 +1,7 @@
 // import { userActionTypes } from "../constants/user.constants";
 
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { API_ROOT } from "../../constants/env";
 
 let user = JSON.parse(localStorage.getItem("user"));
 const initialState = user
@@ -10,18 +11,15 @@ const initialState = user
 export const signupAsync = createAsyncThunk(
   "authentication/signupUser",
   async (data, ThunkApi) => {
-    // ThunkApi.dispatch()
     try {
       const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       };
-      const config = {
-        apiUrl: "http://127.0.0.1:8000",
-      };
+
       const response = await fetch(
-        `${config.apiUrl}/api/registration/`,
+        `${API_ROOT}registration/`,
         requestOptions
       ).then((res) =>
         res.json().then((data) => ({ status: res.status, body: data }))
@@ -35,7 +33,6 @@ export const signupAsync = createAsyncThunk(
 export const loginAsync = createAsyncThunk(
   "authentication/loginUser",
   async (data, ThunkApi) => {
-    // ThunkApi.dispatch()
     const { username, password } = data;
     try {
       const requestOptions = {
@@ -43,14 +40,9 @@ export const loginAsync = createAsyncThunk(
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
       };
-      const config = {
-        apiUrl: "http://127.0.0.1:8000",
-      };
-      const response = await fetch(
-        `${config.apiUrl}/api/login/`,
-        requestOptions
-      ).then((res) =>
-        res.json().then((data) => ({ status: res.status, body: data }))
+
+      const response = await fetch(`${API_ROOT}login/`, requestOptions).then(
+        (res) => res.json().then((data) => ({ status: res.status, body: data }))
       );
       return response;
     } catch (error) {

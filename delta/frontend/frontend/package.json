@@ -29,8 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "webpacktest": "  webpack --env api_url= http://127.0.0.1:8000/api/  --watch --config webpack.dev.js",
-    "webpackprod": "  webpack  --watch --config webpack.prod.js"
+    "webpacktest": "  webpack --watch --config webpack.dev.js",
+    "webpackprod": "API_ROOT=https://delta-assignment.herokuapp.com/  webpack  --watch --config webpack.prod.js"
 
   },
   "eslintConfig": {
