@@ -1,7 +1,6 @@
 // import { userActionTypes } from "../constants/user.constants";
 
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { authentication } from "./authenticationAPI";
 
 let user = JSON.parse(localStorage.getItem("user"));
 const initialState = user
@@ -12,7 +11,6 @@ export const signupAsync = createAsyncThunk(
   "authentication/signupUser",
   async (data, ThunkApi) => {
     // ThunkApi.dispatch()
-    console.log("in thunk");
     try {
       const requestOptions = {
         method: "POST",
@@ -28,7 +26,6 @@ export const signupAsync = createAsyncThunk(
       ).then((res) =>
         res.json().then((data) => ({ status: res.status, body: data }))
       );
-      console.log(response);
       return response;
     } catch (error) {
       console.error(error);
@@ -39,7 +36,6 @@ export const loginAsync = createAsyncThunk(
   "authentication/loginUser",
   async (data, ThunkApi) => {
     // ThunkApi.dispatch()
-    console.log("in thunk");
     const { username, password } = data;
     try {
       const requestOptions = {
@@ -56,7 +52,6 @@ export const loginAsync = createAsyncThunk(
       ).then((res) =>
         res.json().then((data) => ({ status: res.status, body: data }))
       );
-      console.log(response);
       return response;
     } catch (error) {
       console.error(error);
@@ -109,7 +104,6 @@ export const authenticationSlice = createSlice({
       state.login_error = { ...action.payload };
     });
     builder.addCase(loginAsync.fulfilled, (state, action) => {
-      console.log(action, action.error);
       state.loading = "idle";
       if (action.payload.status == 400 && action.payload.body) {
         state.errors = action.payload.body;

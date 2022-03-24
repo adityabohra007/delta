@@ -41,18 +41,11 @@ const Home = () => {
       dispatch(teamAsync());
     }
     if (member_delete_success) {
-      console.log("deleted_refresging");
       dispatch(reset());
       dispatch(teamAsync());
     }
   }, [member_add_success, member_delete_success]);
 
-  console.log(
-    member_delete_success,
-    member_delete_loading,
-    member_delete_error,
-    member_delete_failure
-  );
   const handleSelectAll = (event) => {
     if (event.target.checked) dispatch(select_all());
     else dispatch(de_select_all());

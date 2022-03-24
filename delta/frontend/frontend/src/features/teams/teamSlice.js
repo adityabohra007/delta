@@ -39,12 +39,10 @@ export const deleteMemberAsync = createAsyncThunk(
       API_ROOT + "team/" + data + "/delete",
       requestOptions
     ).then((resp) => {
-      console.log(resp.status);
       if (resp.status == 204) {
         return { status: resp.status };
       }
       return resp.json().then((data) => {
-        console.log(data);
         return { status: resp.status, body: { ...data } };
       });
     });
@@ -67,10 +65,8 @@ const teamSlice = createSlice({
 
     add_company_filter: (state, action) => {
       const item = action.payload;
-      console.log("in action ", item);
       if (state.company_filter.find((element) => element.value == item.value)) {
         // If already in company_filter remove.
-        console.log("inside");
         const updated = [
           ...state.company_filter.filter(
             (element) => element.value != item.value
@@ -80,7 +76,6 @@ const teamSlice = createSlice({
       } else {
         // otherwise add it in
         if (state.company.find((element) => element.value == item.value)) {
-          console.log("add it in ", item, [...state.company_filter, item]);
           state.company_filter = [...state.company_filter, item];
         }
       }
@@ -115,12 +110,10 @@ const teamSlice = createSlice({
       state.company = temp;
     });
     builder.addCase(deleteMemberAsync.pending, (state, action) => {
-      state.member_delete_loading = "idle";
-      console.log("laaaaa");
+      state.member_delete_loading = "loading";
     });
     builder.addCase(deleteMemberAsync.fulfilled, (state, action) => {
-      // state.member_delete_loading = "idle";
-      console.log("ddddddddd");
+      state.member_delete_loading = "idle";
 
       if (action.payload.status === 204) {
         state.member_delete_success = true;
@@ -138,7 +131,6 @@ const teamSlice = createSlice({
       state.member_add_loading = true;
     });
     builder.addCase(addMemberAsync.fulfilled, (state, action) => {
-      console.log(action);
       state.member_add_loading = false;
       if (action.payload.status == 201) {
         state.member_add_success = true;

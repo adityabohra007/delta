@@ -27,7 +27,6 @@ const Signup = () => {
 
   useEffect(() => {
     dispatch(logout());
-    console.log(selector);
   }, []);
   if (selector.signed_up) {
     navigate("/");
@@ -41,7 +40,6 @@ const Signup = () => {
     e.preventDefault();
     setUserAuth({ ...userAuth, submitted: true });
     const { username, password1, password2 } = userAuth;
-    console.log(username, password1);
     if (username && password1 && password2) {
       dispatch(signupAsync(userAuth));
     }

@@ -26,7 +26,6 @@ const Login = () => {
   const selector = useSelector((state) => state.authentication);
   useEffect(() => {
     dispatch(logout());
-    console.log(selector);
   }, []);
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -40,7 +39,6 @@ const Login = () => {
     e.preventDefault();
     setUserAuth({ ...userAuth, submitted: true });
     const { username, password } = userAuth;
-    console.log(username, password);
     if (username && password) {
       dispatch(loginAsync(userAuth));
     }

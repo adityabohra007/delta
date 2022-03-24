@@ -32,7 +32,6 @@ const CreateTeam = (props) => {
   }
   const handleChange = (event) => {
     const { value, name } = event.target;
-    console.log(value, name);
     setMember({ ...member, [name]: value });
   };
   const handleSubmit = (event) => {
@@ -48,7 +47,6 @@ const CreateTeam = (props) => {
   }
 
   const error_string = JSON.stringify(member_add_error);
-  console.log(error_string);
   return (
     <form>
       {member_add_failure && member_add_error && (
